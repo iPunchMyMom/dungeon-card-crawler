@@ -2,7 +2,7 @@ import pygame
 
 
 class Entity(pygame.sprite.Sprite):
-    def __init__(self, screen, x_offset, delay, position):
+    def __init__(self, screen, x_offset, delay):
         super().__init__()
         self.screen = screen
         self.sprite_image = pygame.image.load("./card.png").convert()
