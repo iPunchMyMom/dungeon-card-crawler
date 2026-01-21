@@ -15,7 +15,7 @@ class Game:
         pygame.display.set_caption("Dungeon Card Game")
         self.clock = pygame.Clock()
         self.cards_in_hand = deal_hand(self.screen)
-        self.bg_image = pygame.image.load("./HR_Dark Gothic Castle.png").convert_alpha()
+        self.bg_image = pygame.image.load("./images/HR_Dark Gothic Castle.png").convert_alpha()
         self.bg = pygame.transform.scale(self.bg_image, (WIDTH, HEIGHT)).convert_alpha()
         self.hand_rect = pygame.Rect(0, 0, 0, 0)
         self.paused = False

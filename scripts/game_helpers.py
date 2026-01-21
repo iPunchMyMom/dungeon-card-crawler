@@ -11,7 +11,7 @@ def deal_hand(
     """Deals hand to target location, delaying each cards
     animation start time by `ms_to_increment` milliseconds"""
 
-    bg = pygame.transform.scale(pygame.image.load("./HR_Dark Gothic Castle.png"), (900, 600))
+    bg = pygame.transform.scale(pygame.image.load("./images/HR_Dark Gothic Castle.png"), (900, 600))
     hand_clock = pygame.Clock()
     entities = pygame.sprite.Group()
     # hand_rect = pygame.Rect(0, 0, x_offset * (number_of_cards - 1) + 150, 0)

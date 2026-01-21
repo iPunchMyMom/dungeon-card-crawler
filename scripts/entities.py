@@ -5,7 +5,7 @@ class Entity(pygame.sprite.Sprite):
     def __init__(self, screen, x_offset, delay):
         super().__init__()
         self.screen = screen
-        self.sprite_image = pygame.image.load("./card.png").convert()
+        self.sprite_image = pygame.image.load("./images/card.png").convert()
 
         self.image = pygame.transform.scale(self.sprite_image, (150, 210))
         self.rect = self.image.get_rect(topleft=(0, 0))
