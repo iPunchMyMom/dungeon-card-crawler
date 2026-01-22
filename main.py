@@ -1,5 +1,5 @@
 import pygame
-from game_helpers import deal_hand
+from scripts.game_helpers import deal_hand
 
 WIDTH = 900
 HEIGHT = 600

@@ -1,5 +1,5 @@
 import pygame
-from entities import Entity
+from .entities import Entity
 
 
 def deal_hand(
